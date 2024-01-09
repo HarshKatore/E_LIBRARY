@@ -45,7 +45,7 @@ mongoose
 // Use CORS for Cross Origin Resource Sharing
 app.use(
   cors({
-    origin: "*",
+    origin: "https://e-library-webapp.netlify.app",
     credentials: true,
   })
 );
